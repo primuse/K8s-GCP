@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`In-transit Parcels component renders correctly 1`] = `
+<main>
+  <aside
+    className=""
+  >
+    <div
+      className="bg-blue"
+      id="menu"
+    >
+      <div
+        id="aside-profile"
+      >
+        <a
+          href="/dashboard"
+          onClick={[Function]}
+        >
+          <h3
+            className="m-0 pb-10"
+          >
+            Send
+            <span
+              className="head-span"
+            >
+              IT
+            </span>
+          </h3>
+        </a>
+        <small
+          className="d-block pb-10 white-3"
+          id="user-id"
+        >
+          SD0
+        </small>
+        <small>
+          <p
+            className="m-0"
+          >
+            Welcome 
+          </p>
+          <p
+            id="username"
+          >
+             
+          </p>
+        </small>
+      </div>
+      <ul
+        className="mt-80"
+      >
+        <li>
+          <img
+            className="menu-ico"
+            src="test-file-stub"
+          />
+          <a
+            href="/dashboard"
+            onClick={[Function]}
+          >
+            <span>
+              Dashboard
+            </span>
+          </a>
+        </li>
+        <li>
+          <img
+            className="menu-ico"
+            src="test-file-stub"
+          />
+          <a
+            data-modal={true}
+            data-target="#parcelmodal"
+            href="/"
+            onClick={[Function]}
+          >
+            <span>
+              New Parcel
+            </span>
+          </a>
+        </li>
+        <li>
+          <img
+            className="menu-ico"
+            src="test-file-stub"
+          />
+          <a
+            href="/delivered_parcels"
+            onClick={[Function]}
+          >
+            <span>
+              Delivered Parcels
+            </span>
+          </a>
+        </li>
+        <li>
+          <img
+            className="menu-ico"
+            src="test-file-stub"
+          />
+          <a
+            href="/inTransit_parcels"
+            onClick={[Function]}
+          >
+            <span>
+              In-transit Parcels
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <section
+    className="grey"
+    id="dash"
+  >
+    <nav
+      id="nav"
+    >
+      <a
+        className="toggler mr-1"
+        href="#"
+        id="toggle"
+        onClick={[Function]}
+      >
+        <img
+          src="test-file-stub"
+        />
+      </a>
+      <ul
+        className="p-0"
+      >
+        <li>
+          Dashboard
+        </li>
+      </ul>
+      <ul
+        className="p-0 ml-auto"
+      >
+        <li
+          className="mr-1"
+        >
+          <a
+            href="/profile"
+            onClick={[Function]}
+          >
+            My Profile
+          </a>
+        </li>
+        <li>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Logout
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      id="main-content-page"
+    >
+      <div
+        className="mb-34"
+        id="info-cont"
+      >
+        <div
+          className="info-box"
+        >
+          <small>
+            Created
+          </small>
+          <h4
+            className="m-0"
+            id="created"
+          >
+            0
+          </h4>
+        </div>
+        <div
+          className="info-box"
+        >
+          <small>
+            In Transit
+          </small>
+          <h4
+            className="m-0 blue"
+            id="in-transit"
+          >
+            0
+          </h4>
+        </div>
+        <div
+          className="info-box"
+        >
+          <small>
+            Delivered
+          </small>
+          <h4
+            className="m-0 green"
+            id="delivered"
+          >
+            0
+          </h4>
+        </div>
+      </div>
+      <div
+        className="dash-cont"
+      >
+        <div
+          id="table-info"
+        >
+          <a
+            href="#"
+          >
+            In-Transit
+          </a>
+        </div>
+        <div
+          id="table-cont"
+        >
+          <h1
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "center",
+              }
+            }
+          >
+            No Parcel Orders
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+`;

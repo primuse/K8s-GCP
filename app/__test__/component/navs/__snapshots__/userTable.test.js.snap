@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Parcel Table component renders correctly 1`] = `
+<div
+  className="dash-cont"
+>
+  <div
+    id="table-info"
+  >
+    <a
+      href="#"
+    >
+      All
+    </a>
+  </div>
+  <div
+    id="table-cont"
+  >
+    <table>
+      <tbody>
+        <tr
+          id="table-head"
+        >
+          <th>
+            ID
+          </th>
+          <th>
+            First Name
+          </th>
+          <th>
+            Last Name
+          </th>
+          <th>
+            Admin
+          </th>
+          <th>
+            Email
+          </th>
+          <th>
+            Registered On
+          </th>
+        </tr>
+        <tr>
+          <td>
+            SD0
+            1
+          </td>
+          <td />
+          <td />
+          <td>
+            false
+          </td>
+          <td>
+            cim@gmail.com
+          </td>
+          <td>
+            22-03-2019
+          </td>
+          <td>
+            <a
+              className="btn xsm bg-bright-blue white"
+              href="/edit_user"
+              onClick={[Function]}
+            >
+              Edit
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            SD0
+            1
+          </td>
+          <td />
+          <td />
+          <td>
+            false
+          </td>
+          <td>
+            cim@gmail.com
+          </td>
+          <td>
+            22-03-2019
+          </td>
+          <td>
+            <a
+              className="btn xsm bg-bright-blue white"
+              href="/edit_user"
+              onClick={[Function]}
+            >
+              Edit
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

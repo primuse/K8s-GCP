@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parcel Details component renders correctly 1`] = `
+<div
+  className="dash-cont d-flex mt-40"
+  id="parcel"
+>
+  <div
+    id="map"
+  >
+    <img
+      src="test-file-stub"
+    />
+  </div>
+  <div
+    className="parcel-details p-10"
+  >
+    <h4
+      className="parcel-title text-center m-0 mb-24"
+      id="parcel-Id"
+    >
+      PO
+      2
+    </h4>
+    <div
+      className="pb-10"
+      id="details"
+    >
+      <div>
+        <h6>
+          Name:
+        </h6>
+        <h6>
+          Destination:
+        </h6>
+        <h6>
+          Pickup Location:
+        </h6>
+        <h6>
+          Current Location:
+        </h6>
+        <h6>
+          Addressed to:
+        </h6>
+        <h6>
+          Phone Number
+        </h6>
+        <h6>
+          Price:
+        </h6>
+        <h6>
+          Sent On:
+        </h6>
+        <h6>
+          Delivered On:
+        </h6>
+        <h6>
+          Status:
+        </h6>
+      </div>
+      <div
+        className="space"
+      />
+      <div>
+        <p />
+        <p>
+          Owerri
+        </p>
+        <p />
+        <p />
+        <p>
+          Tiku Okoye
+        </p>
+        <p />
+        <p>
+          N
+          4,000
+        </p>
+        <p>
+          22-03-2019
+        </p>
+        <p>
+          Not yet delivered
+        </p>
+        <p>
+          created
+        </p>
+      </div>
+    </div>
+    <div
+      className="parcel-footer-btns"
+      id="details_btns"
+    >
+      <a
+        className="btn sm bg-blue mr-1 white"
+        data-modal={true}
+        data-target="#destination-modal"
+        href="#"
+        onClick={[Function]}
+      >
+        Change Destination
+      </a>
+      <a
+        className="btn sm is-outlined-blue"
+        data-modal={true}
+        data-target="#cancel-modal"
+        href="#"
+        onClick={[Function]}
+      >
+        Cancel Parcel
+      </a>
+    </div>
+  </div>
+</div>
+`;

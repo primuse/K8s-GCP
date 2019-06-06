@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parcel Table component renders correctly 1`] = `
+<div
+  className="dash-cont"
+>
+  <div
+    id="table-info"
+  >
+    <a
+      href="#"
+    />
+  </div>
+  <div
+    id="table-cont"
+  >
+    <table>
+      <tbody>
+        <tr
+          id="table-head"
+        >
+          <th>
+            ID
+          </th>
+          <th>
+            Name
+          </th>
+          <th>
+            Weight
+          </th>
+          <th>
+            Price
+          </th>
+          <th>
+            Destination
+          </th>
+          <th>
+            Receiver
+          </th>
+          <th>
+            Sent On
+          </th>
+          <th>
+            Status
+          </th>
+        </tr>
+        <tr>
+          <td>
+            PO
+            1
+          </td>
+          <td />
+          <td />
+          <td>
+            4,000
+          </td>
+          <td>
+            Owerri
+          </td>
+          <td>
+            Tiku Okoye
+          </td>
+          <td>
+            22-03-2019
+          </td>
+          <td>
+            created
+          </td>
+          <td>
+            <a
+              className="btn xsm bg-bright-blue white"
+              href="/details/1"
+              onClick={[Function]}
+            >
+              View
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            PO
+            1
+          </td>
+          <td />
+          <td />
+          <td>
+            4,000
+          </td>
+          <td>
+            Owerri
+          </td>
+          <td>
+            Tiku Okoye
+          </td>
+          <td>
+            22-03-2019
+          </td>
+          <td>
+            created
+          </td>
+          <td>
+            <a
+              className="btn xsm bg-bright-blue white"
+              href="/details/1"
+              onClick={[Function]}
+            >
+              View
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

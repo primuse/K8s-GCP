@@ -1,0 +1,24 @@
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata: 
+  name: sendit-app
+  namespace: default
+  labels: 
+    run: sendit-app
+spec: 
+  replicas: 2
+  selector: 
+    matchLabels: 
+      run: sendit-app
+  template:
+    metadata:
+      labels:
+        run: sendit-app
+    spec:
+      containers:
+        - name: sendit-app
+          image: gcr.io/andela-learning/sendit:v1
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+

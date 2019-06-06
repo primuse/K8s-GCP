@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Top Nav component renders correctly 1`] = `
+<nav
+  id="nav"
+>
+  <a
+    className="toggler mr-1"
+    href="#"
+    id="toggle"
+    onClick={[Function]}
+  >
+    <img
+      src="test-file-stub"
+    />
+  </a>
+  <ul
+    className="p-0"
+  >
+    <li>
+      Dashboard
+    </li>
+  </ul>
+  <ul
+    className="p-0 ml-auto"
+  >
+    <li
+      className="mr-1"
+    >
+      <a
+        href="/profile"
+        onClick={[Function]}
+      >
+        My Profile
+      </a>
+    </li>
+    <li>
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Logout
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

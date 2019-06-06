@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Page component renders correctly 1`] = `
+<section
+  id="login"
+>
+  <header>
+    <ul>
+      <li
+        id="head-brand"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Send
+          <span
+            className="head-span"
+          >
+            IT
+          </span>
+        </a>
+      </li>
+    </ul>
+    <ul
+      className="ml-auto mt-25"
+    >
+      <li>
+        <a
+          href="/signup"
+          onClick={[Function]}
+        >
+          Signup
+        </a>
+      </li>
+    </ul>
+  </header>
+  <div
+    className="banner"
+  >
+    <div
+      className="sendit-text mb-34"
+    >
+      <h5>
+        The 
+        <span
+          className="head-span"
+        >
+          Courier
+        </span>
+         service app you've been waiting for
+      </h5>
+      <p>
+        SendIT makes reaching the world easier!
+      </p>
+    </div>
+    <form
+      className="text-center"
+      id="login-form"
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-row"
+      >
+        <input
+          id="email"
+          name="email"
+          onChange={[Function]}
+          placeholder="Email"
+          required={true}
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        className="form-row"
+      >
+        <input
+          id="pwd"
+          name="password"
+          onChange={[Function]}
+          placeholder="Password"
+          required={true}
+          type="password"
+          value=""
+        />
+      </div>
+      <button
+        className="btn lg is-outlined mb-14"
+        type="submit"
+      >
+        Login
+      </button>
+      <div>
+        <a
+          href="/reset"
+          onClick={[Function]}
+        >
+          Forgot Password?
+        </a>
+      </div>
+    </form>
+  </div>
+</section>
+`;

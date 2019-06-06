@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Change Parcel Status Form renders correctly 1`] = `
+<form
+  id="statusForm"
+  onSubmit={[Function]}
+>
+  <div
+    className="form-row"
+  >
+    <input
+      id="status"
+      name="status"
+      onChange={[Function]}
+      placeholder="In-transit, Delivered, Canceled"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    className="btn xsm is-outlined white"
+    type="submit"
+  >
+    Save
+  </button>
+</form>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Change Parcel Location Form renders correctly 1`] = `
+<form
+  className="text-right"
+  id="locationForm"
+  onSubmit={[Function]}
+>
+  <div
+    className="form-row"
+  >
+    <input
+      id="currentLocation"
+      name="currentLocation"
+      onChange={[Function]}
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    className="btn xsm is-outlined white"
+    type="submit"
+  >
+    Save
+  </button>
+</form>
+`;

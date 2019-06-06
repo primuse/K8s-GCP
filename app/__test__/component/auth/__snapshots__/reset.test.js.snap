@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Update Password Page component renders correctly 1`] = `
+<section
+  id="login"
+>
+  <header>
+    <ul>
+      <li
+        id="head-brand"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Send
+          <span
+            className="head-span"
+          >
+            IT
+          </span>
+        </a>
+      </li>
+    </ul>
+    <ul
+      className="ml-auto"
+    >
+      <li>
+        <a
+          href="/signup"
+          onClick={[Function]}
+        >
+          Signup
+        </a>
+      </li>
+    </ul>
+  </header>
+  <div
+    className="banner bg-pd"
+  >
+    <div
+      className="sendit-text mb-24"
+    >
+      <h5>
+        The 
+        <span
+          className="head-span"
+        >
+          Courier
+        </span>
+         service app you've been waiting for
+      </h5>
+    </div>
+    <div
+      id="form-box"
+    >
+      <form
+        className="text-center"
+        id="passwordForm"
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-row"
+        >
+          <small>
+            Enter your new password
+          </small>
+        </div>
+        <div
+          className="mb-34"
+        >
+          <input
+            id="password"
+            name="password"
+            onChange={[Function]}
+            placeholder="Password"
+            required={true}
+            type="password"
+            value=""
+          />
+        </div>
+        <div>
+          <button
+            className="btn sm is-outlined"
+            id="save"
+          >
+            Save
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+`;

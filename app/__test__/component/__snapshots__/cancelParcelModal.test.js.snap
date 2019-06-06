@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cancel Modal renders correctly 1`] = `
+<form
+  className="text-center"
+  id="cancelForm"
+  onSubmit={[Function]}
+>
+  <h5
+    className="white"
+  >
+    Are you sure? You cannot undo this action
+  </h5>
+  <button
+    className="btn xsm is-outlined mr-2 white"
+    id="cancelButton"
+    type="submit"
+  >
+    Continue
+  </button>
+</form>
+`;

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`New parcel form renders correctly 1`] = `
+<form
+  className="text-right"
+  id="createParcel"
+  onSubmit={[Function]}
+>
+  <div
+    className="column is-two htmlForm-row text-left"
+  >
+    <div>
+      <label
+        htmlFor="parcelType"
+      >
+        Parcel Name
+      </label>
+      <input
+        id="parcelName"
+        name="parcelName"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        htmlFor="weight"
+      >
+        Weight
+      </label>
+      <input
+        id="weight"
+        name="weight"
+        onChange={[Function]}
+        required={true}
+        type="number"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="htmlForm-row text-left"
+  >
+    <div>
+      <label
+        htmlFor="destination"
+      >
+        Destination
+      </label>
+      <textarea
+        id="destination"
+        name="destination"
+        onChange={[Function]}
+        required={true}
+        value=""
+      />
+    </div>
+  </div>
+  <h5
+    className="text-center"
+  >
+    Addressed To
+  </h5>
+  <div
+    className="column is-two htmlForm-row text-left"
+  >
+    <div>
+      <label
+        htmlFor="name"
+      >
+        Receiver
+      </label>
+      <input
+        id="receiver"
+        name="receiver"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label
+        htmlFor="email"
+      >
+        Email
+      </label>
+      <input
+        id="email"
+        name="email"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="column is-two htmlForm-row text-left"
+  >
+    <div>
+      <label
+        htmlFor="phoneNumber"
+      >
+        PhoneNumber
+      </label>
+      <input
+        id="phoneNumber"
+        name="phoneNumber"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="mb-14"
+    >
+      <label
+        htmlFor="PickupLocation"
+      >
+        Pickup Location
+      </label>
+      <input
+        id="PickupLocation"
+        name="pickupLocation"
+        onChange={[Function]}
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <button
+    className="btn sm bg-bright-blue text-right white"
+    type="submit"
+  >
+    Create
+  </button>
+</form>
+`;

@@ -1,0 +1,8 @@
+.env
+k8s-configurations/terraform/account.json
+k8s-configurations/terraform/gke/terraform.tfstate
+k8s-configurations/terraform/gke/terraform.tfstate.backup
+k8s-configurations/terraform/gke/.terraform
+k8s-configurations/get_helm.sh
+k8s-configurations/certbot
+.DS_Store

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reset Password form renders correctly 1`] = `
+<form
+  className="text-center"
+  id="resetForm"
+  onSubmit={[Function]}
+>
+  <div
+    className="mb-14"
+  >
+    <input
+      id="email"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email"
+      required={true}
+      type="email"
+      value=""
+    />
+  </div>
+  <div
+    className="form-row"
+  >
+    <small>
+      A reset link would be sent to you
+    </small>
+  </div>
+  <div>
+    <button
+      className="btn sm is-outlined"
+      type="submit"
+    >
+      Reset Password
+    </button>
+  </div>
+</form>
+`;

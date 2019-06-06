@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signup form renders correctly 1`] = `
+<form
+  id="signupForm"
+  onSubmit={[Function]}
+>
+  <div
+    className="column is-two form-row"
+  >
+    <input
+      id="firstName"
+      name="firstName"
+      onChange={[Function]}
+      placeholder="First name"
+      required={true}
+      type="text"
+      value=""
+    />
+    <input
+      id="lastName"
+      name="lastName"
+      onChange={[Function]}
+      placeholder="Last name"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="column is-two form-row"
+  >
+    <input
+      id="email"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email"
+      required={true}
+      type="email"
+      value=""
+    />
+    <input
+      id="password"
+      name="password"
+      onChange={[Function]}
+      placeholder="Password"
+      required={true}
+      type="password"
+      value=""
+    />
+  </div>
+  <button
+    className="btn lg is-outlined"
+    type="submit"
+  >
+    Signup
+  </button>
+</form>
+`;

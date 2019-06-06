@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component renders correctly 1`] = `
+<div
+  className="modal"
+>
+  <div
+    className="modal-box"
+  >
+    <div
+      className="modal-content"
+    >
+      <h2
+        className="text-center white"
+      >
+        New Parcel
+      </h2>
+      <div />
+    </div>
+  </div>
+</div>
+`;

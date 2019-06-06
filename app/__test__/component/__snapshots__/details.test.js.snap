@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parcel details container component renders correctly 1`] = `
+<main>
+  <aside
+    className=""
+  >
+    <div
+      className="bg-blue"
+      id="menu"
+    >
+      <div
+        id="aside-profile"
+      >
+        <a
+          href="/dashboard"
+          onClick={[Function]}
+        >
+          <h3
+            className="m-0 pb-10"
+          >
+            Send
+            <span
+              className="head-span"
+            >
+              IT
+            </span>
+          </h3>
+        </a>
+        <small
+          className="d-block pb-10 white-3"
+          id="user-id"
+        >
+          SD0
+        </small>
+        <small>
+          <p
+            className="m-0"
+          >
+            Welcome 
+          </p>
+          <p
+            id="username"
+          >
+             
+          </p>
+        </small>
+      </div>
+      <ul
+        className="mt-80"
+      >
+        <li>
+          <img
+            className="menu-ico"
+            src="test-file-stub"
+          />
+          <a
+            href="/dashboard"
+            onClick={[Function]}
+          >
+            <span>
+              Dashboard
+            </span>
+          </a>
+        </li>
+        <li>
+          <img
+            className="menu-ico"
+            src="test-file-stub"
+          />
+          <a
+            data-modal={true}
+            data-target="#parcelmodal"
+            href="/"
+            onClick={[Function]}
+          >
+            <span>
+              New Parcel
+            </span>
+          </a>
+        </li>
+        <li>
+          <img
+            className="menu-ico"
+            src="test-file-stub"
+          />
+          <a
+            href="/delivered_parcels"
+            onClick={[Function]}
+          >
+            <span>
+              Delivered Parcels
+            </span>
+          </a>
+        </li>
+        <li>
+          <img
+            className="menu-ico"
+            src="test-file-stub"
+          />
+          <a
+            href="/inTransit_parcels"
+            onClick={[Function]}
+          >
+            <span>
+              In-transit Parcels
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <section
+    className="grey"
+    id="dash"
+  >
+    <nav
+      id="nav"
+    >
+      <a
+        className="toggler mr-1"
+        href="#"
+        id="toggle"
+        onClick={[Function]}
+      >
+        <img
+          src="test-file-stub"
+        />
+      </a>
+      <ul
+        className="p-0"
+      >
+        <li>
+          Dashboard
+        </li>
+      </ul>
+      <ul
+        className="p-0 ml-auto"
+      >
+        <li
+          className="mr-1"
+        >
+          <a
+            href="/profile"
+            onClick={[Function]}
+          >
+            My Profile
+          </a>
+        </li>
+        <li>
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            Logout
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      id="main-content-page"
+    >
+      <div
+        className="dash-cont d-flex mt-40"
+        id="parcel"
+      >
+        <div
+          id="map"
+        >
+          <img
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          className="parcel-details p-10"
+        >
+          <h4
+            className="parcel-title text-center m-0 mb-24"
+            id="parcel-Id"
+          >
+            PO
+            2
+          </h4>
+          <div
+            className="pb-10"
+            id="details"
+          >
+            <div>
+              <h6>
+                Name:
+              </h6>
+              <h6>
+                Destination:
+              </h6>
+              <h6>
+                Pickup Location:
+              </h6>
+              <h6>
+                Current Location:
+              </h6>
+              <h6>
+                Addressed to:
+              </h6>
+              <h6>
+                Phone Number
+              </h6>
+              <h6>
+                Price:
+              </h6>
+              <h6>
+                Sent On:
+              </h6>
+              <h6>
+                Delivered On:
+              </h6>
+              <h6>
+                Status:
+              </h6>
+            </div>
+            <div
+              className="space"
+            />
+            <div>
+              <p />
+              <p>
+                Owerri
+              </p>
+              <p />
+              <p />
+              <p>
+                Tiku Okoye
+              </p>
+              <p />
+              <p>
+                N
+                4,000
+              </p>
+              <p>
+                22-03-2019
+              </p>
+              <p>
+                Not yet delivered
+              </p>
+              <p>
+                created
+              </p>
+            </div>
+          </div>
+          <div
+            className="parcel-footer-btns"
+            id="details_btns"
+          >
+            <a
+              className="btn sm bg-blue mr-1 white"
+              data-modal={true}
+              data-target="#destination-modal"
+              href="#"
+              onClick={[Function]}
+            >
+              Change Destination
+            </a>
+            <a
+              className="btn sm is-outlined-blue"
+              data-modal={true}
+              data-target="#cancel-modal"
+              href="#"
+              onClick={[Function]}
+            >
+              Cancel Parcel
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+`;

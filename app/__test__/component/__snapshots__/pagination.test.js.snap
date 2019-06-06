@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Component renders correctly 1`] = `
+<div
+  className="pagination"
+>
+  <span>
+    <a
+      className="links"
+      href="/"
+      onClick={[Function]}
+    >
+       
+      1
+    </a>
+  </span>
+</div>
+`;

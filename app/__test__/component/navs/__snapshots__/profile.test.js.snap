@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Page component renders correctly 1`] = `
+<div
+  className="d-flex"
+  id="user-cont"
+>
+  <div
+    id="user-desc"
+  >
+    <img
+      id="user-img"
+      src="test-file-stub"
+    />
+    <div
+      className="text-center"
+    >
+      <h2
+        id="id"
+      >
+        SDO
+      </h2>
+      <span
+        className="d-block mb-14"
+        id="profile-name"
+      >
+        <h4
+          className="d-inline"
+          id="firstName"
+        />
+        <h4
+          className="d-inline"
+          id="lastName"
+        />
+      </span>
+      <small
+        id="email"
+      >
+        cim@gmail.com
+      </small>
+      <h5
+        id="registered"
+      >
+        Registered On 
+        22-03-2019
+      </h5>
+    </div>
+  </div>
+  <div
+    className="text-center"
+    id="user-info"
+  >
+    <h1
+      className="mb-6"
+    >
+      My Parcels
+    </h1>
+    <div
+      className="d-flex content-between mb-6"
+    >
+      <div>
+        <small>
+          Created
+        </small>
+        <h4
+          id="created"
+        >
+          0
+        </h4>
+      </div>
+      <div>
+        <small>
+          Delivered
+        </small>
+        <h4
+          className="green"
+          id="delivered"
+        >
+          0
+        </h4>
+      </div>
+      <div>
+        <small>
+          In-transit
+        </small>
+        <h4
+          className="blue"
+          id="in-transit"
+        >
+          0
+        </h4>
+      </div>
+      <div>
+        <small>
+          Cancelled
+        </small>
+        <h4
+          className="red"
+          id="canceled"
+        >
+          0
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+`;
